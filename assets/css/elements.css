@@ -1,0 +1,7 @@
+article.main > div.content img {
+    width: 50%;
+}
+
+.codeblock {
+    padding-top: 2rem;
+}
