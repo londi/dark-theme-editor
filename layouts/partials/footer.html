@@ -89,6 +89,18 @@
                 </li>
             {{ end }}
 
+            <!--     Custom       -->
+            {{ with $.Site.Params.footer.buildTimestamp }}
+            <li>
+                Last built: &nbsp;
+                <time>
+                    {{ $.Site.Params.footer.buildTimestamp | time.Format $.Site.Params.footer.dateFormat | safeHTML }}
+                </time>
+            </li>
+            {{ end }}
+
+
+
             {{ with $.Site.Params.footer.gitHash }}
                 <li title="{{ $.GitInfo.Subject }}">
                     {{ $.GitInfo.AbbreviatedHash }}

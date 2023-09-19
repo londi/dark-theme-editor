@@ -18,10 +18,14 @@
 
     <div class="header_middle">
         {{ if .IsHome }}
-            {{ $.Site.Params.header.title }}
+            <a href="/fprog" style="text-decoration: underline">
+                {{ $.Site.Params.header.title }}
+            </a>
         {{ else }}
             {{ $.Page.Title }} -
-            {{ $.Site.Params.header.title }}
+            <a href="/fprog" style="text-decoration: underline">
+                {{ $.Site.Params.header.title }}
+            </a>
         {{ end }}
     </div>
 </header>
