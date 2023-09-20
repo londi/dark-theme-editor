@@ -8,6 +8,7 @@ description: "Description of this page."
 keywords: "keywords,used,for,SEO"
 draft: false
 include_toc: true
+math: false
 ---
 
 
