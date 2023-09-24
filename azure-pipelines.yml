@@ -20,7 +20,7 @@ stages:
       'Strubli Pool'
     steps:
     - script: |
-        /home/linuxbrew/.linuxbrew/bin/hugo
+        /home/linuxbrew/.linuxbrew/bin/hugo --enableGitInfo
       displayName: 'build hugo site'
     - task: ArchiveFiles@2
       displayName: 'Archive files'
