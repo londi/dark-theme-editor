@@ -13,6 +13,5 @@ package-lock.json
 /.vscode
 
 # this is a theme, we don't need these files
-/content
 /themes
 /.idea/

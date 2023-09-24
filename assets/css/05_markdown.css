@@ -249,6 +249,8 @@ article.main > div.content div.codeblock > div.highlight :where(pre, div) {
 
 article.main > div.content div.codeblock > div.highlight pre {
     padding-left: 0.6em;
+    padding-right: 0.6em;
+    overflow-x: auto;
 }
 
 article.main > div.content div.codeblock > div.highlight code {

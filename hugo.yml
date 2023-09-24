@@ -1,0 +1,32 @@
+baseURL : "https://wiki.strubli.com/dark-theme-editor"
+languageCode : "en-ch"
+title : "dark-theme-editor wiki page"
+
+
+params:
+  site:
+    subURL : "dark-theme-editor"
+    faviconUrl: ""
+  header:
+    title: "dark-theme-editor wiki page"
+    subtitle: ""
+    author: Leon
+    logo:
+      imgUrl: ""
+  footer:
+    theme: false
+    modifiedTime: false
+    dateFormat: "02. Jan 2006 15:04:05"
+    buildTimestamp: "2023-01-01T00:00:00+0200"
+    socialLink:
+      github: "https://www.github.com/londi"
+    copyrightStr: "All Rights Reserved ®."
+  globalFrontmatter:
+    author: "Leon Lüthi"
+  homePage:
+    siteLongDescriptionTitle: "Intro"
+    siteLongDescription: "This is a summary and code snippet collection of the modul dark-theme-editor.\nCopyright of images belongs to FHNW!"
+    numOfRecentPosts: 10
+  page:
+    dateFormat: "02.01.2006"
+    codeBlockCopible: false
